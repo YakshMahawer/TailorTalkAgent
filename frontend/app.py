@@ -33,7 +33,7 @@ if st.button("Create Event"):
         start_datetime = datetime.combine(start_date, start_time).isoformat()
         end_datetime = datetime.combine(end_date, end_time).isoformat()
 
-        url = "http://localhost:8000/create_event/"
+        url = "https://tailortalkagent-production.up.railway.app/create_event/"
         payload = {
             "summary": summary,
             "description": description,
