@@ -1,0 +1,9 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore tokens and secrets
+backend/token.pickle
+backend/client_secret.json
+backend/service_account.json
+credentials/
